@@ -5,28 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Wireframe 00</title>
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <header>
-        <div>
-            <img src="https://loremflickr.com/320/240" alt="Trois petits chatons" />     
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="https://loremflickr.com/320/240" alt="Trois petits chatons" />     
+            </div>
+            <nav class="menu-top">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-            </ul>
-        </nav>
     </header>
-    <section>
+    <section class="article-middle">
         <img src="https://loremflickr.com/320/240" alt=""/>
         <h1>Lorem ipsum dolor sit amet.</h1>
         <h2>Lorem ipsum dolor sit amet.</h2>
@@ -46,8 +49,17 @@
         </p>
     </section>
     <footer>
-        <div>
-            copyright blablablablablabal
+        <div class="container-footer">
+            <div class="copyright">
+                    copyright blablablablablabal
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
